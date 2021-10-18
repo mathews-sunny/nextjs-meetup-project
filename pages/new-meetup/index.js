@@ -24,7 +24,7 @@ const NewMeetup = () => {
           content="This is a page for adding new meetup"
         />
       </Head>
-      <NewMeetupForm onAddMeetup={addMeetuphandler} />;
+      <NewMeetupForm onAddMeetup={addMeetuphandler} />
     </Fragment>
   );
 };
